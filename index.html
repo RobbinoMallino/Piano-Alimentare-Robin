@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!-- saved from url=(0062)file:///Users/robin/Downloads/guida_completa_alimentare_1.html -->
-<html lang="it"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<html lang="it">
+<head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Guida Alimentare Completa — Post Colecistectomia</title>
 <style>
@@ -121,14 +121,14 @@
 <p class="subtitle">Harbhajan Robin Mal · Post Colecistectomia · Con farmaci, meal prep, griglia e friggitrice ad aria</p>
 
 <div class="nav-row">
-  <button class="nav-btn active" onclick="goTo(&#39;farmaci&#39;)">💊 Farmaci</button>
-  <button class="nav-btn" onclick="goTo(&#39;piano&#39;)">📅 Piano settimana</button>
-  <button class="nav-btn" onclick="goTo(&#39;ricette&#39;)">👨‍🍳 Ricette</button>
-  <button class="nav-btn" onclick="goTo(&#39;cottura&#39;)">🔥 Cottura</button>
-  <button class="nav-btn" onclick="goTo(&#39;spuntini&#39;)">🍎 Spuntini</button>
-  <button class="nav-btn" onclick="goTo(&#39;verdure&#39;)">🥦 Verdure</button>
-  <button class="nav-btn" onclick="goTo(&#39;prep&#39;)">🗓 Meal prep</button>
-  <button class="nav-btn" onclick="goTo(&#39;spesa&#39;)">🛒 Lista spesa</button>
+  <button class="nav-btn active" onclick="goTo('farmaci')">💊 Farmaci</button>
+  <button class="nav-btn" onclick="goTo('piano')">📅 Piano settimana</button>
+  <button class="nav-btn" onclick="goTo('ricette')">👨‍🍳 Ricette</button>
+  <button class="nav-btn" onclick="goTo('cottura')">🔥 Cottura</button>
+  <button class="nav-btn" onclick="goTo('spuntini')">🍎 Spuntini</button>
+  <button class="nav-btn" onclick="goTo('verdure')">🥦 Verdure</button>
+  <button class="nav-btn" onclick="goTo('prep')">🗓 Meal prep</button>
+  <button class="nav-btn" onclick="goTo('spesa')">🛒 Lista spesa</button>
 </div>
 
 <!-- ===== FARMACI ===== -->
@@ -149,7 +149,7 @@
   <div class="box warn">Riduce l'assorbimento delle vitamine A, D, E, K. Compensa mangiando verdure cotte ogni giorno e almeno un frutto. Niente integratori senza consenso del medico.</div>
   <div class="slbl">Cosa evitare durante la terapia</div>
   <div class="g3">
-    <div class="card"><div class="card-title">Formaggi grassi</div><div class="card-body">Stop a stracchino, robiola, mozzarella, feta, parmigiano. Solo fiocchi di latte (max 30 g) consentiti.</div></div>
+    <div class="card"><div class="card-title">Formaggi grassi</div><div class="card-body">Stop a stracchino, robiola, mozzarella, feta, parmigiano. Solo yogurt bianco magro (125 g a parte) consentiti.</div></div>
     <div class="card"><div class="card-title">Pane e pasta integrali</div><div class="card-body">La crusca accelera il transito. Solo pane bianco tipo 00 e pasta di semola per ora.</div></div>
     <div class="card"><div class="card-title">Legumi interi</div><div class="card-body">Anche decorticati. Troppo fermentabili. Stop temporaneo finché i sintomi migliorano.</div></div>
     <div class="card"><div class="card-title">Frutta secca</div><div class="card-body">Mandorle, noci, pistacchi — troppi grassi concentrati. Stop temporaneo.</div></div>
@@ -162,7 +162,7 @@
 <div class="page" id="piano">
   <div class="box info">Gli orari in blu indicano quando prendere i farmaci. Colazione sempre 30 min dopo il Peptazol delle 7:00.</div>
 
-  <div class="day-card" id="lun"><div class="day-hd" onclick="togD(&#39;lun&#39;)"><span class="day-name">Lunedì</span><span class="badge bd">Danza 22:00</span><span class="dtog">›</span></div>
+  <div class="day-card" id="lun"><div class="day-hd" onclick="togD('lun')"><span class="day-name">Lunedì</span><span class="badge bd">Danza 22:00</span><span class="dtog">›</span></div>
   <div class="day-body">
     <div class="mcell"><div class="mt">Colazione 07:30</div><div class="mi b">07:00 → Peptazol a digiuno</div><div class="mi">125 g yogurt magro o kefir</div><div class="mi">4 fette biscottate tipo 00</div><div class="mi">1 cuc. miele o confettura</div><div class="mi">1 banana matura</div></div>
     <div class="mcell"><div class="mt">Pranzo — schiscetta</div><div class="mi">80 g pasta bianca + sugo</div><div class="mi">Zucchine bollite e saltate</div><div class="mi">1 cuc. olio EVO a crudo</div><div class="mi b">Dopo → Redisolv 1ª bust.</div></div>
@@ -170,23 +170,23 @@
     <div class="mcell"><div class="mt">Spuntini</div><div class="mi">Mattina: banana + crackers</div><div class="mi">Ore 17: taralli + carote</div><div class="mi w">Niente dopo la danza</div></div>
   </div></div>
 
-  <div class="day-card" id="mar"><div class="day-hd" onclick="togD(&#39;mar&#39;)"><span class="day-name">Martedì</span><span class="badge bd">Danza 20:30</span><span class="dtog">›</span></div>
+  <div class="day-card" id="mar"><div class="day-hd" onclick="togD('mar')"><span class="day-name">Martedì</span><span class="badge bd">Danza 20:30</span><span class="dtog">›</span></div>
   <div class="day-body">
     <div class="mcell"><div class="mt">Colazione 07:30</div><div class="mi b">07:00 → Peptazol a digiuno</div><div class="mi">200 ml latte scremato o kefir</div><div class="mi">60 g pane bianco tostato</div><div class="mi">1 cuc. miele + 1 banana</div></div>
-    <div class="mcell"><div class="mt">Pranzo — schiscetta</div><div class="mi">80 g riso bianco</div><div class="mi">30 g fiocchi di latte</div><div class="mi">Zucchine bollite e saltate</div><div class="mi">1 cuc. olio EVO a crudo</div><div class="mi b">Dopo → Redisolv 1ª bust.</div></div>
+    <div class="mcell"><div class="mt">Pranzo — schiscetta</div><div class="mi">80 g riso bianco</div><div class="mi">125 g yogurt bianco (vasettino a parte)</div><div class="mi">Zucchine bollite e saltate</div><div class="mi">1 cuc. olio EVO a crudo</div><div class="mi b">Dopo → Redisolv 1ª bust.</div></div>
     <div class="mcell"><div class="mt">Cena — ore 18:30</div><div class="mi">Spinaci bolliti e saltati</div><div class="mi">150 g pollo in friggitrice/griglia</div><div class="mi">60 g pane bianco tostato</div><div class="mi">1 cuc. olio EVO a crudo</div><div class="mi b">Dopo → Redisolv 2ª bust.</div><div class="mi b">Prima di dormire → Tamacid</div><div class="mi w">Cena anticipata — danza ore 20:30</div></div>
     <div class="mcell"><div class="mt">Spuntini</div><div class="mi">Mattina: 1 frutto</div><div class="mi">Ore 15:30: crackers + carote</div><div class="mi w">Niente dopo la danza</div></div>
   </div></div>
 
-  <div class="day-card" id="mer"><div class="day-hd" onclick="togD(&#39;mer&#39;)"><span class="day-name">Mercoledì</span><span class="dtog">›</span></div>
+  <div class="day-card" id="mer"><div class="day-hd" onclick="togD('mer')"><span class="day-name">Mercoledì</span><span class="dtog">›</span></div>
   <div class="day-body">
     <div class="mcell"><div class="mt">Colazione 07:30</div><div class="mi b">07:00 → Peptazol a digiuno</div><div class="mi">125 g yogurt o kefir</div><div class="mi">4 fette biscottate tipo 00</div><div class="mi">1 cuc. confettura</div><div class="mi">1 mela o pera</div></div>
-    <div class="mcell"><div class="mt">Pranzo — schiscetta</div><div class="mi">80 g pasta bianca + sugo</div><div class="mi">30 g fiocchi di latte</div><div class="mi">Zucchine bollite e saltate</div><div class="mi">1 cuc. olio EVO a crudo</div><div class="mi b">Dopo → Redisolv 1ª bust.</div></div>
+    <div class="mcell"><div class="mt">Pranzo — schiscetta</div><div class="mi">80 g pasta bianca + sugo</div><div class="mi">125 g yogurt bianco (vasettino a parte)</div><div class="mi">Zucchine bollite e saltate</div><div class="mi">1 cuc. olio EVO a crudo</div><div class="mi b">Dopo → Redisolv 1ª bust.</div></div>
     <div class="mcell"><div class="mt">Cena</div><div class="mi">Carote bollite e saltate</div><div class="mi">180 g merluzzo in friggitrice/griglia</div><div class="mi">200 g patate lesse</div><div class="mi">1 cuc. olio EVO a crudo</div><div class="mi b">Dopo → Redisolv 2ª bust.</div><div class="mi b">Prima di dormire → Tamacid</div></div>
     <div class="mcell"><div class="mt">Spuntini</div><div class="mi">Mattina: banana + gallette riso</div><div class="mi">Pomeriggio: taralli + frutto</div></div>
   </div></div>
 
-  <div class="day-card" id="gio"><div class="day-hd" onclick="togD(&#39;gio&#39;)"><span class="day-name">Giovedì</span><span class="dtog">›</span></div>
+  <div class="day-card" id="gio"><div class="day-hd" onclick="togD('gio')"><span class="day-name">Giovedì</span><span class="dtog">›</span></div>
   <div class="day-body">
     <div class="mcell"><div class="mt">Colazione 07:30</div><div class="mi b">07:00 → Peptazol a digiuno</div><div class="mi">200 ml latte scremato o kefir</div><div class="mi">4 fette biscottate tipo 00</div><div class="mi">1 cuc. miele + 1 banana</div></div>
     <div class="mcell"><div class="mt">Pranzo — schiscetta</div><div class="mi">80 g riso bianco</div><div class="mi">120 g pollo cotto (prep dom)</div><div class="mi">Zucchine bollite e saltate</div><div class="mi">1 cuc. olio EVO a crudo</div><div class="mi b">Dopo → Redisolv 1ª bust.</div></div>
@@ -194,7 +194,7 @@
     <div class="mcell"><div class="mt">Spuntini</div><div class="mi">Mattina: crackers + frutto</div><div class="mi">Pomeriggio: grissini + banana</div></div>
   </div></div>
 
-  <div class="day-card" id="ven"><div class="day-hd" onclick="togD(&#39;ven&#39;)"><span class="day-name">Venerdì</span><span class="dtog">›</span></div>
+  <div class="day-card" id="ven"><div class="day-hd" onclick="togD('ven')"><span class="day-name">Venerdì</span><span class="dtog">›</span></div>
   <div class="day-body">
     <div class="mcell"><div class="mt">Colazione 07:30</div><div class="mi b">07:00 → Peptazol a digiuno</div><div class="mi">125 g yogurt o kefir</div><div class="mi">4 fette biscottate tipo 00</div><div class="mi">1 cuc. miele o confettura</div><div class="mi">1 banana o mela</div></div>
     <div class="mcell"><div class="mt">Pranzo — schiscetta</div><div class="mi">80 g pasta bianca + sugo</div><div class="mi">2 uova sode a pezzi</div><div class="mi">Zucchine bollite e saltate</div><div class="mi">1 cuc. olio EVO a crudo</div><div class="mi b">Dopo → Redisolv 1ª bust.</div></div>
@@ -202,7 +202,7 @@
     <div class="mcell"><div class="mt">Spuntini</div><div class="mi">Mattina: pera o mela + crackers</div><div class="mi">Pomeriggio: taralli + frutto</div></div>
   </div></div>
 
-  <div class="day-card" id="sab"><div class="day-hd" onclick="togD(&#39;sab&#39;)"><span class="day-name">Sabato</span><span class="badge bf">Giorno libero</span><span class="dtog">›</span></div>
+  <div class="day-card" id="sab"><div class="day-hd" onclick="togD('sab')"><span class="day-name">Sabato</span><span class="badge bf">Giorno libero</span><span class="dtog">›</span></div>
   <div class="day-body">
     <div class="mcell"><div class="mt">Colazione 07:30</div><div class="mi b">07:00 → Peptazol a digiuno</div><div class="mi">125 g yogurt o kefir</div><div class="mi">Fette biscottate + miele</div><div class="mi">1 banana</div></div>
     <div class="mcell"><div class="mt">Pranzo</div><div class="mi">Pasta o riso semplice</div><div class="mi">Verdure bollite e saltate</div><div class="mi">Pollo o pesce magro</div><div class="mi b">Dopo → Redisolv 1ª bust.</div></div>
@@ -210,7 +210,7 @@
     <div class="mcell"><div class="mt">Spuntini</div><div class="mi">Mattina: frutto + crackers</div><div class="mi">Pomeriggio: gallette o taralli</div></div>
   </div></div>
 
-  <div class="day-card" id="dom"><div class="day-hd" onclick="togD(&#39;dom&#39;)"><span class="day-name">Domenica</span><span class="badge bp">Meal prep</span><span class="dtog">›</span></div>
+  <div class="day-card" id="dom"><div class="day-hd" onclick="togD('dom')"><span class="day-name">Domenica</span><span class="badge bp">Meal prep</span><span class="dtog">›</span></div>
   <div class="day-body">
     <div class="mcell"><div class="mt">Colazione 07:30</div><div class="mi b">07:00 → Peptazol a digiuno</div><div class="mi">Colazione preferita semplice</div><div class="mi w">No cornetti o cibi fritti</div></div>
     <div class="mcell"><div class="mt">Pranzo</div><div class="mi">Pasta bianca + sugo + verdure</div><div class="mi">1 cuc. olio EVO a crudo</div><div class="mi b">Dopo → Redisolv 1ª bust.</div></div>
@@ -223,7 +223,7 @@
 <div class="page" id="ricette">
   <div class="box ok">L'olio EVO si aggiunge SEMPRE a crudo sul piatto finito, mai in cottura. Tecnica base verdure: bolli → scola → 1 min padella antiaderente senza olio.</div>
 
-  <div class="rc" id="rc1"><div class="rc-hd" onclick="togR(&#39;rc1&#39;)"><span class="rc-title">Pasta con sugo e zucchine saltate</span><span class="rc-meta">Lun/Mer/Ven · 12 min</span><span class="rc-tog">›</span></div>
+  <div class="rc" id="rc1"><div class="rc-hd" onclick="togR('rc1')"><span class="rc-title">Pasta con sugo e zucchine saltate</span><span class="rc-meta">Lun/Mer/Ven · 12 min</span><span class="rc-tog">›</span></div>
   <div class="rc-body"><div class="ing-block"><div class="slbl2">Ingredienti</div>
     <div class="ir"><span class="iq">80 g</span><span class="in">pasta bianca di semola</span></div>
     <div class="ir"><span class="iq">2 cucchiai</span><span class="in">passata di pomodoro semplice</span></div>
@@ -239,21 +239,21 @@
   <div class="step"><div class="sn">5</div><div><div class="st">Al lavoro: scalda 1 min microonde, mescola. Redisolv subito dopo.</div></div></div>
   </div></div>
 
-  <div class="rc" id="rc2"><div class="rc-hd" onclick="togR(&#39;rc2&#39;)"><span class="rc-title">Riso bianco con fiocchi di latte e verdure</span><span class="rc-meta">Mar/Gio · 3 min</span><span class="rc-tog">›</span></div>
+  <div class="rc" id="rc2"><div class="rc-hd" onclick="togR('rc2')"><span class="rc-title">Riso bianco con yogurt bianco (vasettino a parte) e verdure</span><span class="rc-meta">Mar/Gio · 3 min</span><span class="rc-tog">›</span></div>
   <div class="rc-body"><div class="ing-block"><div class="slbl2">Ingredienti</div>
     <div class="ir"><span class="iq">180 g</span><span class="in">riso bianco già cotto (prep dom)</span></div>
-    <div class="ir"><span class="iq">30 g</span><span class="in">fiocchi di latte</span></div>
+    <div class="ir"><span class="iq">125 g</span><span class="in">yogurt bianco (vasettino separato — aggiungi al momento)</span></div>
     <div class="ir"><span class="iq">una manciata</span><span class="in">zucchine o carote già bollite e saltate (prep dom)</span></div>
     <div class="ir"><span class="iq">1 cucchiaino</span><span class="in">olio EVO</span></div>
     <div class="ir"><span class="iq">q.b.</span><span class="in">sale, erbe aromatiche</span></div>
   </div>
   <div class="slbl2">Come si fa — mattina (tutto già pronto)</div>
   <div class="step"><div class="sn">1</div><div><div class="st">Riso dal frigo nel contenitore. Sgranalo con una forchetta.</div></div></div>
-  <div class="step"><div class="sn">2</div><div><div class="st">Aggiungi verdure, fiocchi di latte e olio EVO. Chiudi e porta con te.</div></div></div>
+  <div class="step"><div class="sn">2</div><div><div class="st">Aggiungi verdure, yogurt bianco (vasettino a parte) e olio EVO. Chiudi e porta con te.</div></div></div>
   <div class="step"><div class="sn">3</div><div><div class="st">Al lavoro: scalda 1 min microonde, mescola. Redisolv subito dopo.</div></div></div>
   </div></div>
 
-  <div class="rc" id="rc3"><div class="rc-hd" onclick="togR(&#39;rc3&#39;)"><span class="rc-title">Riso con pollo e spinaci saltati</span><span class="rc-meta">Giovedì · 2 min</span><span class="rc-tog">›</span></div>
+  <div class="rc" id="rc3"><div class="rc-hd" onclick="togR('rc3')"><span class="rc-title">Riso con pollo e spinaci saltati</span><span class="rc-meta">Giovedì · 2 min</span><span class="rc-tog">›</span></div>
   <div class="rc-body"><div class="ing-block"><div class="slbl2">Ingredienti</div>
     <div class="ir"><span class="iq">180 g</span><span class="in">riso bianco già cotto (prep dom)</span></div>
     <div class="ir"><span class="iq">120 g</span><span class="in">petto pollo già cotto a pezzi (prep dom)</span></div>
@@ -267,7 +267,7 @@
   <div class="step"><div class="sn">3</div><div><div class="st">Al lavoro: scalda 1–2 min microonde, mescola. Redisolv subito dopo.</div></div></div>
   </div></div>
 
-  <div class="rc" id="rc4"><div class="rc-hd" onclick="togR(&#39;rc4&#39;)"><span class="rc-title">Merluzzo in friggitrice/griglia con patate lesse</span><span class="rc-meta">Mercoledì cena · 20 min</span><span class="rc-tog">›</span></div>
+  <div class="rc" id="rc4"><div class="rc-hd" onclick="togR('rc4')"><span class="rc-title">Merluzzo in friggitrice/griglia con patate lesse</span><span class="rc-meta">Mercoledì cena · 20 min</span><span class="rc-tog">›</span></div>
   <div class="rc-body"><div class="ing-block"><div class="slbl2">Ingredienti</div>
     <div class="ir"><span class="iq">180 g</span><span class="in">filetto merluzzo (fresco o surgelato scongelato)</span></div>
     <div class="ir"><span class="iq">200 g</span><span class="in">patate</span></div>
@@ -281,7 +281,7 @@
   <div class="step"><div class="sn">3</div><div><div class="st">Impiatta tutto. Olio EVO a crudo sopra tutto. Redisolv subito dopo.</div></div></div>
   </div></div>
 
-  <div class="rc" id="rc5"><div class="rc-hd" onclick="togR(&#39;rc5&#39;)"><span class="rc-title">Pollo in friggitrice/griglia con spinaci saltati</span><span class="rc-meta">Martedì cena · 15 min</span><span class="rc-tog">›</span></div>
+  <div class="rc" id="rc5"><div class="rc-hd" onclick="togR('rc5')"><span class="rc-title">Pollo in friggitrice/griglia con spinaci saltati</span><span class="rc-meta">Martedì cena · 15 min</span><span class="rc-tog">›</span></div>
   <div class="rc-body"><div class="ing-block"><div class="slbl2">Ingredienti</div>
     <div class="ir"><span class="iq">150 g</span><span class="in">petto di pollo</span></div>
     <div class="ir"><span class="iq">una manciata</span><span class="in">spinaci freschi o surgelati</span></div>
@@ -386,7 +386,7 @@
     <div class="card"><div class="card-title">Spinaci — 1 sacchetto</div><div class="card-body">Freschi: bolli 3 min, scola, strizza. Surgelati: padella senza olio 5 min. In frigo 3 giorni.</div><div class="card-ok">Usi: martedì e giovedì cena</div></div>
     <div class="card"><div class="card-title">Patate lesse — 500 g</div><div class="card-body">A pezzi in acqua fredda, bolli 15 min. Scola, raffredda. In frigo 3–4 giorni. Non condire domenica.</div><div class="card-ok">Usi: mercoledì e giovedì cena</div></div>
   </div>
-  <div class="box warn">La pasta si cuoce sempre fresca al mattino (10 min). I fiocchi di latte si comprano freschi, durano 4 giorni aperti. Il Redisolv va preso dopo ogni pasto, anche domenica.</div>
+  <div class="box warn">La pasta si cuoce sempre fresca al mattino (10 min). I yogurt bianco (vasettino a parte) si comprano freschi, durano 4 giorni aperti. Il Redisolv va preso dopo ogni pasto, anche domenica.</div>
 </div>
 
 <!-- ===== LISTA SPESA ===== -->
@@ -396,11 +396,11 @@
     <button class="wbtn" onclick="setWeeks(2)">2 settimane</button>
   </div>
   <div class="box info">Quantità in <strong style="color:#1d4ed8">blu</strong> cambiano con 2 settimane. Tocca ogni voce per spuntarla. <span class="gbadge">griglia</span> = ottimo anche sulla griglia.</div>
-  <p class="prog-label" id="prog-label">0 di 37 articoli</p>
+  <p class="prog-label" id="prog-label">0 di 0 articoli</p>
   <div class="progress-bar"><div class="progress-fill" id="prog-fill" style="width:0%"></div></div>
 
   <div class="spesa-sec" id="ss1">
-    <div class="spesa-hd" onclick="togSS(&#39;ss1&#39;)"><span class="spesa-title">🥩 Carne e pesce</span><span class="spesa-tog">›</span></div>
+    <div class="spesa-hd" onclick="togSS('ss1')"><span class="spesa-title">🥩 Carne e pesce</span><span class="spesa-tog">›</span></div>
     <div class="spesa-body">
       <div class="sitem" onclick="togSI(this)"><div class="chk"><span class="chkmark">✓</span></div><span class="sitem-name">Petto di pollo <span class="gbadge">griglia</span></span><span class="sitem-qty x2" data-1="300 g" data-2="600 g">300 g</span></div>
       <div class="sitem" onclick="togSI(this)"><div class="chk"><span class="chkmark">✓</span></div><span class="sitem-name">Petto di tacchino <span class="gbadge">griglia</span></span><span class="sitem-qty x2" data-1="300 g" data-2="600 g">300 g</span></div>
@@ -411,18 +411,18 @@
   </div>
 
   <div class="spesa-sec" id="ss2">
-    <div class="spesa-hd" onclick="togSS(&#39;ss2&#39;)"><span class="spesa-title">🥛 Latticini e frigo</span><span class="spesa-tog">›</span></div>
+    <div class="spesa-hd" onclick="togSS('ss2')"><span class="spesa-title">🥛 Latticini e frigo</span><span class="spesa-tog">›</span></div>
     <div class="spesa-body">
       <div class="sitem" onclick="togSI(this)"><div class="chk"><span class="chkmark">✓</span></div><span class="sitem-name">Yogurt bianco magro</span><span class="sitem-qty x2" data-1="4 vasetti" data-2="8 vasetti">4 vasetti</span></div>
       <div class="sitem" onclick="togSI(this)"><div class="chk"><span class="chkmark">✓</span></div><span class="sitem-name">Kefir bianco (alternativa yogurt)</span><span class="sitem-qty x2" data-1="2 bott." data-2="4 bott.">2 bott.</span></div>
       <div class="sitem" onclick="togSI(this)"><div class="chk"><span class="chkmark">✓</span></div><span class="sitem-name">Latte parzialmente scremato</span><span class="sitem-qty x2" data-1="1 L" data-2="2 L">1 L</span></div>
-      <div class="sitem" onclick="togSI(this)"><div class="chk"><span class="chkmark">✓</span></div><span class="sitem-name">Fiocchi di latte</span><span class="sitem-qty x2" data-1="200 g" data-2="400 g">200 g</span></div>
+      <div class="sitem" onclick="togSI(this)"><div class="chk"><span class="chkmark">✓</span></div><span class="sitem-name">Yogurt bianco</span><span class="sitem-qty x2" data-1="200 g" data-2="400 g">200 g</span></div>
       <div class="sitem" onclick="togSI(this)"><div class="chk"><span class="chkmark">✓</span></div><span class="sitem-name">Piadine bianche</span><span class="sitem-qty x2" data-1="2 pz" data-2="4 pz">2 pz</span></div>
     </div>
   </div>
 
   <div class="spesa-sec" id="ss3">
-    <div class="spesa-hd" onclick="togSS(&#39;ss3&#39;)"><span class="spesa-title">🥦 Verdure</span><span class="spesa-tog">›</span></div>
+    <div class="spesa-hd" onclick="togSS('ss3')"><span class="spesa-title">🥦 Verdure</span><span class="spesa-tog">›</span></div>
     <div class="spesa-body">
       <div class="sitem" onclick="togSI(this)"><div class="chk"><span class="chkmark">✓</span></div><span class="sitem-name">Zucchine <span class="gbadge">griglia</span></span><span class="sitem-qty x2" data-1="6 pz" data-2="12 pz">6 pz</span></div>
       <div class="sitem" onclick="togSI(this)"><div class="chk"><span class="chkmark">✓</span></div><span class="sitem-name">Carote</span><span class="sitem-qty x2" data-1="500 g" data-2="1 kg">500 g</span></div>
@@ -434,7 +434,7 @@
   </div>
 
   <div class="spesa-sec" id="ss4">
-    <div class="spesa-hd" onclick="togSS(&#39;ss4&#39;)"><span class="spesa-title">🍌 Frutta</span><span class="spesa-tog">›</span></div>
+    <div class="spesa-hd" onclick="togSS('ss4')"><span class="spesa-title">🍌 Frutta</span><span class="spesa-tog">›</span></div>
     <div class="spesa-body">
       <div class="sitem" onclick="togSI(this)"><div class="chk"><span class="chkmark">✓</span></div><span class="sitem-name">Banane mature</span><span class="sitem-qty x2" data-1="7 pz" data-2="14 pz">7 pz</span></div>
       <div class="sitem" onclick="togSI(this)"><div class="chk"><span class="chkmark">✓</span></div><span class="sitem-name">Mele o pere</span><span class="sitem-qty x2" data-1="5 pz" data-2="10 pz">5 pz</span></div>
@@ -444,7 +444,7 @@
   </div>
 
   <div class="spesa-sec" id="ss5">
-    <div class="spesa-hd" onclick="togSS(&#39;ss5&#39;)"><span class="spesa-title">🍝 Pasta, riso e pane</span><span class="spesa-tog">›</span></div>
+    <div class="spesa-hd" onclick="togSS('ss5')"><span class="spesa-title">🍝 Pasta, riso e pane</span><span class="spesa-tog">›</span></div>
     <div class="spesa-body">
       <div class="sitem" onclick="togSI(this)"><div class="chk"><span class="chkmark">✓</span></div><span class="sitem-name">Pasta bianca di semola</span><span class="sitem-qty x2" data-1="500 g" data-2="1 kg">500 g</span></div>
       <div class="sitem" onclick="togSI(this)"><div class="chk"><span class="chkmark">✓</span></div><span class="sitem-name">Riso basmati o bianco</span><span class="sitem-qty x2" data-1="500 g" data-2="1 kg">500 g</span></div>
@@ -454,7 +454,7 @@
   </div>
 
   <div class="spesa-sec" id="ss6">
-    <div class="spesa-hd" onclick="togSS(&#39;ss6&#39;)"><span class="spesa-title">🍘 Snack e spuntini</span><span class="spesa-tog">›</span></div>
+    <div class="spesa-hd" onclick="togSS('ss6')"><span class="spesa-title">🍘 Snack e spuntini</span><span class="spesa-tog">›</span></div>
     <div class="spesa-body">
       <div class="sitem" onclick="togSI(this)"><div class="chk"><span class="chkmark">✓</span></div><span class="sitem-name">Crackers bianchi senza sale</span><span class="sitem-qty x2" data-1="1 pacco" data-2="2 pacchi">1 pacco</span></div>
       <div class="sitem" onclick="togSI(this)"><div class="chk"><span class="chkmark">✓</span></div><span class="sitem-name">Taralli classici</span><span class="sitem-qty x2" data-1="1 pacco" data-2="2 pacchi">1 pacco</span></div>
@@ -464,7 +464,7 @@
   </div>
 
   <div class="spesa-sec" id="ss7">
-    <div class="spesa-hd" onclick="togSS(&#39;ss7&#39;)"><span class="spesa-title">🫙 Dispensa</span><span class="spesa-tog">›</span></div>
+    <div class="spesa-hd" onclick="togSS('ss7')"><span class="spesa-title">🫙 Dispensa</span><span class="spesa-tog">›</span></div>
     <div class="spesa-body">
       <div class="sitem" onclick="togSI(this)"><div class="chk"><span class="chkmark">✓</span></div><span class="sitem-name">Passata di pomodoro semplice</span><span class="sitem-qty x2" data-1="2 baratt." data-2="4 baratt.">2 baratt.</span></div>
       <div class="sitem" onclick="togSI(this)"><div class="chk"><span class="chkmark">✓</span></div><span class="sitem-name">Olio extravergine di oliva</span><span class="sitem-qty">1 bottiglia</span></div>
@@ -476,7 +476,7 @@
   </div>
 
   <div class="spesa-sec" id="ss8">
-    <div class="spesa-hd" onclick="togSS(&#39;ss8&#39;)"><span class="spesa-title">💊 Farmaci — verifica scorte</span><span class="spesa-tog">›</span></div>
+    <div class="spesa-hd" onclick="togSS('ss8')"><span class="spesa-title">💊 Farmaci — verifica scorte</span><span class="spesa-tog">›</span></div>
     <div class="spesa-body">
       <div class="sitem" onclick="togSI(this)"><div class="chk"><span class="chkmark">✓</span></div><span class="sitem-name">Peptazol 40 mg</span><span class="sitem-qty">60 cps</span></div>
       <div class="sitem" onclick="togSI(this)"><div class="chk"><span class="chkmark">✓</span></div><span class="sitem-name">Tamacid Pro</span><span class="sitem-qty">60 dosi</span></div>
@@ -529,6 +529,5 @@
 
   updateProgress();
 </script>
-
-
-</body></html>
+</body>
+</html>
